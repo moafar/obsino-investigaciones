@@ -1,0 +1,49 @@
+google_sheet:
+  spreadsheet_id: "1mm-xIAMHt2UDeE5RChKu1M4QBcgwzPYcLaiCynQPh4U"
+  worksheet_name: "Proyectos"
+
+credenciales: "/home/rom/obsino/inv2/secrets/observatorio-ino-1-78cfc246d28f-key.json"
+
+columnas_fecha:
+  - fecha_ctc
+  - fecha_cei
+  - fecha_invima
+  - fecha_activacion
+  - fecha_cierre
+
+columnas_float:
+  - muestra_tamanio
+  - muestra_inicial
+  - muestra_final
+  - eas_estudio
+
+columnas_proyectos:
+  - estado
+  - codigo
+  - titulo
+  - patologia
+  - otras_patologias
+  - tipo
+  - disenio
+  - lineasinv
+  - catinn
+  - grupoedad
+  - investigador_nombre
+  - investigador_rol
+  - financiacion_tipo
+  - financiacion_fuente
+  - cro
+  - fecha_ctc
+  - fecha_cei
+  - fecha_invima
+  - fecha_activacion
+  - muestra_tamanio
+  - muestra_inicial
+  - muestra_final
+  - eas_estudio
+  - fecha_cierre
+
+bigquery:
+  proyecto: "observatorio-ino-1"
+  dataset: "investigaciones"
+  tabla_destino: "tbl_proyectos"
