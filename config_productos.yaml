@@ -1,0 +1,42 @@
+google_sheet:
+  spreadsheet_id: "1mm-xIAMHt2UDeE5RChKu1M4QBcgwzPYcLaiCynQPh4U"
+  worksheet_name: "Producción"
+
+credenciales: "/home/rom/obsino/investigaciones/secrets/observatorio-ino-1-78cfc246d28f-key.json"
+
+columnas_fecha:
+  - fecha_publicacion
+
+columnas_productos:
+  - "num_gruplac"
+  - "estudio_cod"
+  - "titulo"
+  - "categoria"
+  - "patologia"
+  - "otras_pat"
+  - "poblacion"
+  - "tipo_investigacion"
+  - "colaboraciones"
+  - "staff_ino"
+  - "investigadores"
+  - "tipo_difusion"
+  - "nombre_medio"
+  - "fecha_publicacion"
+  - "abreviatura"
+  - "url_doi"
+  - "indexacion"
+  - "scimago"
+  - "factor_impacto"
+  - "cat_impacto"
+  - "cat_publindex"
+  - "cat_esperada"
+
+columnas_listas:
+  - "colaboraciones"
+  - "staff_ino"
+  - "indexacion"
+
+bigquery:
+  proyecto: "observatorio-ino-1"
+  dataset: "investigaciones"
+  tabla_destino: "productos"

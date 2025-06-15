@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos temporales
+*.pyc
+__pycache__/
+*.log
+*.tmp
+
+# Configuraciones de IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de pruebas o datos grandes
+*.csv
+*.tsv
+*.sqlite3
+
+# Secrets
+secrets/
+
