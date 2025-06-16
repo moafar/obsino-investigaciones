@@ -19,7 +19,7 @@ def ejecutar_etl_productos():
    
     df_largo = agregar_timestamp(df_largo) # Agregar timestamp de carga
     cargar_a_bigquery(df_largo, config) # Cargar a BigQuery (sobrescribe tabla completa o la crea si no existe)
-    print(f"Carga de PRODUCTOS finalizada.  DTYPES: {df_largo.dtypes}")
+    print(f"Carga de PRODUCTOS finalizada.")
 
 def main():
     ejecutar_etl_productos()

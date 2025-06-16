@@ -8,7 +8,7 @@ def ejecutar_etl_proyectos():
     df = agregar_uuid(df)
     df = agregar_timestamp(df)
     cargar_a_bigquery(df, config)
-    print(f"Carga de PROYECTOS finalizada.  DTYPES: {df.dtypes}")
+    print(f"Carga de PROYECTOS finalizada.")
 
 def main():
     ejecutar_etl_proyectos()
